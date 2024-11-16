@@ -1,0 +1,54 @@
+.question{
+text-align: center;
+font-size: 50px;
+text-shadow: 5px 3px 5px white;
+color: black;
+}
+.ans{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.answer{
+    border:1px solid black;
+    font-size:30px;
+    padding: 5px;
+    background-color: azure;
+    background-size:cover ;
+}
+.container{
+    display: none;
+}
+.start{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    border: 1px solid black;
+    background-image: linear-gradient(white,black);
+}
+.answer:hover{
+    transform: scale(1.5);
+    transition: transform 2s linear;
+}
+.easy{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    border: 1px solid black;
+    background-image: linear-gradient(white,black);
+}
+.hard{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    border: 1px solid black;
+    background-image: linear-gradient(white,black);
+}
+body{
+    background-image: url("https://img.freepik.com/free-vector/maths-realistic-chalkboard-background_23-2148159115.jpg");
+    background-size: cover;
+    background-position: center;
+}

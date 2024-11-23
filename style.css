@@ -52,3 +52,8 @@ body{
     background-size: cover;
     background-position: center;
 }
+.aguagu{
+    text-align: center;
+    font-size: 60px;
+    background: linear-gradient(black, white);
+}
